@@ -30,7 +30,7 @@ export const products: Product[] = [
   {
     id: "sage-baller-hoodie",
     name: "Sage Baller Hoodie",
-    price: 35000,
+    price: 37000,
     category: "HOODIES",
     sizes: ["S", "M", "L", "XL", "XXL"],
     description:
@@ -52,7 +52,7 @@ export const products: Product[] = [
   {
     id: "sage-baller-tee-trio",
     name: "Sage Baller Tee — Trio",
-    price: 25000,
+    price: 20000,
     category: "T-SHIRTS",
     sizes: ["S", "M", "L", "XL", "XXL"],
     description:

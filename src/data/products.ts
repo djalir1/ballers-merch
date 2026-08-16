@@ -28,24 +28,35 @@ export const categories = [
 /** Edit / add / remove products here — the whole site reads from this list. */
 export const products: Product[] = [
   {
-    id: "sage-baller-tee-black",
-    name: "Sage Baller Tee — Black",
+    id: "sage-baller-tshirt-black",
+    name: "Sage Baller T-Shirt — Black",
     price: 25000,
     category: "T-SHIRTS",
     sizes: ["S", "M", "L", "XL", "XXL"],
     description:
-      "Black Sage Baller graphic tee. Every Game. Every Shot.",
+      "Black Sage Baller graphic T-Shirt. Every Game. Every Shot.",
     image: "/sage merch.png",
     featured: true,
   },
   {
-    id: "sage-baller-tee-each",
-    name: "Sage Baller Tee — Each",
+    id: "sage-baller-tshirt-white",
+    name: "Sage Baller T-Shirt — White",
+    price: 25000,
+    category: "T-SHIRTS",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    description:
+      "White Sage Baller graphic T-Shirt. Built Different. Play Fearless.",
+    image: "/white t shirt.jpg.jpeg",
+    featured: true,
+  },
+  {
+    id: "sage-baller-tshirt-each",
+    name: "Sage Baller T-Shirt — Each",
     price: 20000,
     category: "T-SHIRTS",
     sizes: ["S", "M", "L", "XL", "XXL"],
     description:
-      "Sage Baller graphic tee available in black, white, and navy. Priced each. Built Different.",
+      "Sage Baller graphic T-Shirt available in black, white, and navy. Priced each. Built Different.",
     image: "/Sage Merch 2.png",
     featured: true,
   },

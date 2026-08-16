@@ -24,8 +24,9 @@ export function ProductCard({
           src={product.image}
           alt={product.name}
           loading="lazy"
-          width={800}
-          height={800}
+          width={768}
+          height={1024}
+          decoding="async"
           className="aspect-[3/4] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
       </button>

@@ -62,7 +62,7 @@ export function OrderDialog({
                 alt={product.name}
                 width={800}
                 height={800}
-                className="aspect-square w-full object-cover"
+                className="aspect-[3/4] w-full object-cover"
               />
             </div>
 

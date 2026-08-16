@@ -28,17 +28,6 @@ export const categories = [
 /** Edit / add / remove products here — the whole site reads from this list. */
 export const products: Product[] = [
   {
-    id: "sage-baller-hoodie",
-    name: "Sage Baller Hoodie",
-    price: 37000,
-    category: "HOODIES",
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    description:
-      "Sage Baller signature hoodie — Built Different. Play Fearless. Trust the Process.",
-    image: "/Hoodie.jpg.jpeg",
-    featured: true,
-  },
-  {
     id: "sage-baller-tee-black",
     name: "Sage Baller Tee — Black",
     price: 25000,
@@ -50,14 +39,25 @@ export const products: Product[] = [
     featured: true,
   },
   {
-    id: "sage-baller-tee-trio",
-    name: "Sage Baller Tee — Trio",
+    id: "sage-baller-tee-each",
+    name: "Sage Baller Tee — Each",
     price: 20000,
     category: "T-SHIRTS",
     sizes: ["S", "M", "L", "XL", "XXL"],
     description:
-      "Sage Baller graphic tee available in black, white, and navy. Built Different.",
+      "Sage Baller graphic tee available in black, white, and navy. Priced each. Built Different.",
     image: "/Sage Merch 2.png",
+    featured: true,
+  },
+  {
+    id: "sage-baller-hoodie",
+    name: "Sage Baller Hoodie",
+    price: 37000,
+    category: "HOODIES",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    description:
+      "Sage Baller signature hoodie — Built Different. Play Fearless. Trust the Process.",
+    image: "/Hoodie.jpg.jpeg",
     featured: true,
   },
 ];

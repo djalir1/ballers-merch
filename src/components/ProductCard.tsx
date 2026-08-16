@@ -26,7 +26,7 @@ export function ProductCard({
           loading="lazy"
           width={800}
           height={800}
-          className="aspect-square w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+          className="aspect-[3/4] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
       </button>
 
